@@ -109,35 +109,39 @@ console.log(category);
 
 //CODE HERE
 
-let foodArr = [
-    name : 'cheese',
+let foodArr = [{
+name : 'cheese',
 prices : 10,
 category : 'entree',
 popularity : 6 ,
 rating : 10,
 tags : [ 'small', 'med', 'large', 'kids', 'vegetarian'],
-}
+} ,
+{
 name : 'pepperoni',
 prices : 12,
 category : 'entree',
 popularity : 8 ,
 rating : 8,
 tags : [ 'small', 'med', 'large', 'gluten free'],
-}
+} ,
+{
 name : 'Hawaiian',
 prices : 16 ,
 category : 'entree',
 popularity : 4 ,
 rating : 7,
 tags : [ 'small', 'med', 'large', 'gluten free'],
-}
+} ,
+{
 name : 'cheese bread',
 prices : 6,
 category : 'side',
 popularity : 10 ,
 rating : 10,
 tags : [ 'small', 'med', 'large', 'gluten free'],
-}
+} ,
+{
 name : 'ice cream',
 prices : 14,
 category : 'dessert',
@@ -161,9 +165,12 @@ tags : [ 'small', 'med', 'large', 'kids'],
 
 //CODE HERE
 
-function
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+const filteredFood = foodArr.filter(tagFilters => {
+    return tagFilters.tags.includes('gluten free')
+});
+
+console.log(filteredFood)
 
 
 
@@ -207,6 +214,11 @@ function
 */
 
 //CODE HERE
+
+function filterByProperty(property, number, type){
+    let ratedFoods = []
+    
+}
 
 
 /*
