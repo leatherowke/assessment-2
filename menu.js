@@ -33,6 +33,18 @@
 //CODE HERE
 
 
+const pizza = {
+name : 'cheese',
+prices : 10,
+category : 'entree',
+popularity : 4 ,
+rating : 5,
+tags : [ 'small', 'med', 'large', 'kids'],
+};
+
+// console.log(pizza)
+
+
 
 //////////////////PROBLEM 2////////////////////
 /* 
@@ -44,6 +56,7 @@
 
 //CODE HERE
 
+ console.log(pizza.popularity)
 
 /*
     Second, log the second tag in your pizza's
@@ -54,6 +67,7 @@
 
 //CODE HERE
 
+ console.log(pizza.tags[1])
 
 /*
     Third, destructure the price off of the
@@ -64,6 +78,9 @@
 
 //CODE HERE
 
+const {prices} = pizza;
+
+console.log(prices)
 
 /*
     Fourth, and last, destructure the category
@@ -73,6 +90,9 @@
 */
 
 //CODE HERE
+
+const {category} = pizza;
+console.log(category);
 
 
 //////////////////PROBLEM 3////////////////////
@@ -89,7 +109,43 @@
 
 //CODE HERE
 
-
+let foodArr = [
+    name : 'cheese',
+prices : 10,
+category : 'entree',
+popularity : 6 ,
+rating : 10,
+tags : [ 'small', 'med', 'large', 'kids', 'vegetarian'],
+}
+name : 'pepperoni',
+prices : 12,
+category : 'entree',
+popularity : 8 ,
+rating : 8,
+tags : [ 'small', 'med', 'large', 'gluten free'],
+}
+name : 'Hawaiian',
+prices : 16 ,
+category : 'entree',
+popularity : 4 ,
+rating : 7,
+tags : [ 'small', 'med', 'large', 'gluten free'],
+}
+name : 'cheese bread',
+prices : 6,
+category : 'side',
+popularity : 10 ,
+rating : 10,
+tags : [ 'small', 'med', 'large', 'gluten free'],
+}
+name : 'ice cream',
+prices : 14,
+category : 'dessert',
+popularity : 6 ,
+rating : 10,
+tags : [ 'small', 'med', 'large', 'kids'],
+}
+];
 
 //////////////////PROBLEM 4////////////////////
 /* 
@@ -104,6 +160,8 @@
 */
 
 //CODE HERE
+
+function
 
 // const filteredFood = foodArr.filter(/* CALLBACK HERE */)
 
