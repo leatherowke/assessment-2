@@ -114,7 +114,7 @@ name : 'cheese',
 prices : 10,
 category : 'entree',
 popularity : 6 ,
-rating : 10,
+rating : 5,
 tags : [ 'small', 'med', 'large', 'kids', 'vegetarian'],
 } ,
 {
@@ -130,7 +130,7 @@ name : 'Hawaiian',
 prices : 16 ,
 category : 'entree',
 popularity : 4 ,
-rating : 7,
+rating : 3,
 tags : [ 'small', 'med', 'large', 'gluten free'],
 } ,
 {
@@ -146,7 +146,7 @@ name : 'ice cream',
 prices : 14,
 category : 'dessert',
 popularity : 6 ,
-rating : 10,
+rating : 4,
 tags : [ 'small', 'med', 'large', 'kids'],
 }
 ];
@@ -215,11 +215,10 @@ console.log(filteredFood)
 
 //CODE HERE
 
-function filterByProperty(property, number, type){
-    let ratedFoods = []
-    
-}
 
+function
+
+console.log(ratedFoods())
 
 /*
     Invoke the `filterByProperty` function passing
