@@ -158,3 +158,5 @@ deals[0].title = deals[0].replace('5', '0');
 */
 
 //CODE HERE
+
+deals[1].desc = deals[1].replace('march, april').trim();

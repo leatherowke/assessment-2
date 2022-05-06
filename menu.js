@@ -216,9 +216,17 @@ console.log(filteredFood)
 //CODE HERE
 
 
-function
+const filterByPorperty = (property, rating, price) => {
+    const filteredArr = pizzaArr.filter((pizza) =>{
+        if(typeof.toLowerCase() === 'above'){
+            return pizza[property] > Number;
+        }else if(type.toLowerCase === 'below'){
+            return pizza[property] < Number;
+        }
+    })
+    return filteredArr;
+}
 
-console.log(ratedFoods())
 
 /*
     Invoke the `filterByProperty` function passing
