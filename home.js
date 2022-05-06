@@ -140,6 +140,7 @@ const deals = [
 //CODE HERE
 
 
+deals[0].title = deals[0].replace('5', '0');
 
 
 
